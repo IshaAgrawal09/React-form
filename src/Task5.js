@@ -6,8 +6,8 @@ const Task5 = () => {
         let arr = []
         console.log(document.getElementById('t').checked)
         if(document.getElementById('t').checked)    arr.push('Travelling')
-        if(document.getElementById('l').checked) arr.push('Listening Music')
-        if(document.getElementById('v').checked) arr.push('Video Games')
+        if(document.getElementById('l').checked) arr.push('Planting')
+        if(document.getElementById('v').checked) arr.push('Reading')
         setHobbies(arr)
     }
   return (
